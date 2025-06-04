@@ -15,10 +15,10 @@ springdoc:
     path: "/swagger-ui.html"
     enabled: true
     operations-sorter: "method"
-  packagesToScan: com.br.creditas.application.controller
+  packagesToScan: com.br.produto_externo_a.application.controller
 
 server:
-  port: 8081
+  port: 8090
   shutdown: graceful
 
 rabbitmq:

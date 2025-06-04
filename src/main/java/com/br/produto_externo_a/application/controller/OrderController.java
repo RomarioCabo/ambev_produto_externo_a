@@ -1,4 +1,4 @@
-package com.br.produto_externo_a.application;
+package com.br.produto_externo_a.application.controller;
 
 import com.br.produto_externo_a.domain.order.OrderRequest;
 import com.br.produto_externo_a.domain.order.status.StatusResponse;

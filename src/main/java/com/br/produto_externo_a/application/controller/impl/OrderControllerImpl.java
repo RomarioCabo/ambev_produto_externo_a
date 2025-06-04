@@ -1,6 +1,6 @@
-package com.br.produto_externo_a.application.impl;
+package com.br.produto_externo_a.application.controller.impl;
 
-import com.br.produto_externo_a.application.OrderController;
+import com.br.produto_externo_a.application.controller.OrderController;
 import com.br.produto_externo_a.domain.order.OrderRequest;
 import com.br.produto_externo_a.domain.order.service.OrderService;
 import com.br.produto_externo_a.domain.order.status.StatusResponse;
