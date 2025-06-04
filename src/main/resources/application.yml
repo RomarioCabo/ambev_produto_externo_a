@@ -1,0 +1,31 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: produto_externo_a
+
+logging:
+  level:
+    org:
+      springframework:
+        cache: TRACE
+
+springdoc:
+  swagger-ui:
+    path: "/swagger-ui.html"
+    enabled: true
+    operations-sorter: "method"
+  packagesToScan: com.br.creditas.application.controller
+
+server:
+  port: 8081
+  shutdown: graceful
+
+rabbitmq:
+  exchange:
+    name: ambev-order-exchange
+  queue:
+    name: ambev-order-queue
+  routing:
+    json:
+      key: ambev-order-queue-routing-json-key
